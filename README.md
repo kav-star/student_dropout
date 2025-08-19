@@ -1,6 +1,6 @@
 # 📊 Student Dropout Analysis for School Education – Smart Education
 
-A data-driven software solution developed to analyze student dropout patterns across government schools in Karnataka. This project supports the Right to Education initiative by enabling focused policy interventions based on insights from dropout data.
+A data-driven software solution developed to analyse student dropout patterns across government schools in Karnataka. This project supports the Right to Education initiative by enabling focused policy interventions based on insights from dropout data.
 
 ## 🏫 Project Overview
 
@@ -14,25 +14,34 @@ High dropout rates in school education are a major concern, especially due to po
 
 ## 🎯 Objectives
 
-- Provide actionable insights into student dropout patterns
-- Support evidence-based policymaking
-- Enable targeted interventions to reduce dropout rates
-- Promote inclusive and equitable education
+Our project aims to:
+
+- Collect and pre-process dropout data from authentic sources.
+- Analyse dropout patterns using machine learning models.
+- Provide real-time analysis through a web-based dashboard.
+- Enable manual data entry via web forms for live monitoring.
+- Support policymakers and school authorities in identifying high-risk categories.
+- Facilitate focused interventions to reduce dropout rates.
+
 
 ## 🛠️ Features
 
-- 📈 Interactive dashboards for visualizing dropout trends
+- 📈 Interactive dashboards for visualising dropout trends
 - 🔍 Multi-dimensional filtering (school, area, gender, caste, age)
 - 📊 Predictive analytics for forecasting dropout risks
 - 📝 Custom reports for education officers and policymakers
 - 🔗 Integration with existing school databases
 
+
 ## 🧰 Tech Stack
 
-- **Frontend**: React.js / Angular (customizable)
-- **Backend**: Node.js / Django / Flask
-- **Database**: PostgreSQL / MySQL
-- **Visualization**: Power BI / Tableau / D3.js
-- **Deployment**: Docker / Kubernetes / Azure / AWS
+- Frontend (User Interface): HTML5, CSS3, JavaScript, Bootstrap, Chart.js
+- Backend (Server-side): Python, Flask.
+- Data Processing: Pandas, NumPy, Scikit-learn, Matplotlib / Seaborn
+- Supervised ML Models: Logistic Regression/SVM/Decision Tree
+- Database: MySQL
+- Hosting/Deployment: GitHub
+- Additional Tools: VSCode, Google Colab.
+
 
 ## 📂 Repository Structure
