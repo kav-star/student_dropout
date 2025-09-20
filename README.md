@@ -35,10 +35,10 @@ Our project aims to:
 
 ## 🧰 Tech Stack
 
-- Frontend (User Interface): HTML5, CSS3, JavaScript, Bootstrap, Chart.js
+- Frontend (User Interface): HTML5, CSS3, JavaScript, Bootstrap
 - Backend (Server-side): Python, Flask.
 - Data Processing: Pandas, NumPy, Scikit-learn, Matplotlib / Seaborn
-- Supervised ML Models: Logistic Regression/SVM/Decision Tree
+- Supervised ML Model: Random Forest
 - Database: MySQL
 - Hosting/Deployment: GitHub
 - Additional Tools: VSCode, Google Colab.
