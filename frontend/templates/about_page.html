@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Dropout Insights</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">
+                <img src="images/logo.png" alt="DropoutAI Logo" class="logo-icon">
+                <span>DropoutAI</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="analytics_page.html">Analytics</a></li>
+                <li><a href="about_page.html" class="active">About</a></li>
+                <li><a href="contact_page.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="page-header">
+            <h1 class="page-title">About</h1>
+            <p class="page-subtitle">Understanding our mission to combat educational dropout rates</p>
+        </div>
+
+        <div class="about-content">
+            <div class="about-card">
+                <div class="about-section">
+                    <div class="about-icon">🎯</div>
+                    <div class="about-text">
+                        <h3>Mission</h3>
+                        <p>Our mission is to provide comprehensive data analysis and insights into student dropout
+                            patterns across educational institutions. We leverage advanced analytics to identify at-risk
+                            students, understand contributing factors, and support educational administrators in making
+                            data-driven decisions to improve retention rates and student success outcomes.</p>
+                        <div class="stats-grid">
+                            <div class="stat-item">
+                                <div class="stat-number">500+</div>
+                                <div class="stat-label">Schools Analyzed</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">50K+</div>
+                                <div class="stat-label">Student Records</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">15%</div>
+                                <div class="stat-label">Dropout Reduction</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-card">
+                <div class="about-section">
+                    <div class="about-icon">🔮</div>
+                    <div class="about-text">
+                        <h3>Vision</h3>
+                        <p>We envision a future where every student has the opportunity to complete their education
+                            successfully. Through predictive analytics, real-time monitoring, and actionable insights,
+                            we aim to create an educational ecosystem that proactively supports student retention and
+                            academic achievement across diverse communities and socio-economic backgrounds.</p>
+                        <div class="stats-grid">
+                            <div class="stat-item">
+                                <div class="stat-number">24/7</div>
+                                <div class="stat-label">Monitoring</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">95%</div>
+                                <div class="stat-label">Accuracy Rate</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">10+</div>
+                                <div class="stat-label">States Covered</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="team-section">
+                <h3
+                    style="text-align: center; font-size: 1.8rem; font-weight: 700; color: #2d3748; margin-bottom: 1rem;">
+                    Our Team</h3>
+                <p style="text-align: center; color: #4a5568; margin-bottom: 2rem;">Meet the dedicated professionals
+                    working to improve educational outcomes</p>
+
+                <div class="team-grid">
+                    <div class="team-member">
+                        <div class="member-avatar">R</div>
+                        <div class="member-name">Tanushree R</div>
+                        <div class="member-role">Back-end developer</div>
+                    </div>
+                    <div class="team-member">
+                        <div class="member-avatar">J</div>
+                        <div class="member-name">Kavya J</div>
+                        <div class="member-role">Front-end developer</div>
+                    </div>
+                    <div class="team-member">
+                        <div class="member-avatar">S</div>
+                        <div class="member-name">Kavya S</div>
+                        <div class="member-role">UX/UI Designer</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Add some interactivity
+        const aboutCards = document.querySelectorAll('.about-card');
+        aboutCards.forEach(card => {
+            card.addEventListener('mouseenter', () => {
+                card.style.transform = 'translateY(-8px) scale(1.01)';
+            });
+            card.addEventListener('mouseleave', () => {
+                card.style.transform = 'translateY(0) scale(1)';
+            });
+        });
+
+        // Animate stats on scroll
+        const observerOptions = {
+            threshold: 0.5,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const statNumbers = entry.target.querySelectorAll('.stat-number');
+                    statNumbers.forEach(stat => {
+                        const finalValue = stat.textContent;
+                        const numericValue = parseInt(finalValue.replace(/\D/g, ''));
+                        if (numericValue) {
+                            animateNumber(stat, 0, numericValue, finalValue);
+                        }
+                    });
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.stats-grid').forEach(grid => {
+            observer.observe(grid);
+        });
+
+        function animateNumber(element, start, end, finalText) {
+            const duration = 2000;
+            const startTime = performance.now();
+
+            function update(currentTime) {
+                const elapsed = currentTime - startTime;
+                const progress = Math.min(elapsed / duration, 1);
+
+                const current = Math.floor(start + (end - start) * progress);
+                element.textContent = finalText.replace(/\d+/, current);
+
+                if (progress < 1) {
+                    requestAnimationFrame(update);
+                }
+            }
+
+            requestAnimationFrame(update);
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,113 @@
+{
+    "feature_columns": [
+        "School",
+        "Area",
+        "Gender",
+        "Caste",
+        "Standard",
+        "Age",
+        "Attendance",
+        "Previous_Score",
+        "Parental_Education",
+        "Family_Income",
+        "Scholarship",
+        "Distance",
+        "Special_Care",
+        "Parent_Type",
+        "Age_Standard_Gap",
+        "Attendance_Score_Interaction",
+        "Financial_Stress"
+    ],
+    "categorical_columns": [
+        "School",
+        "Area",
+        "Gender",
+        "Caste",
+        "Parental_Education",
+        "Family_Income",
+        "Scholarship",
+        "Special_Care",
+        "Parent_Type"
+    ],
+    "numerical_columns": [
+        "School",
+        "Area",
+        "Gender",
+        "Caste",
+        "Standard",
+        "Age",
+        "Attendance",
+        "Previous_Score",
+        "Parental_Education",
+        "Family_Income",
+        "Scholarship",
+        "Distance",
+        "Special_Care",
+        "Parent_Type",
+        "Age_Standard_Gap",
+        "Attendance_Score_Interaction",
+        "Financial_Stress"
+    ],
+    "target_classes": [
+        0,
+        1
+    ],
+    "n_features": 17,
+    "valid_values": {
+        "Gender": [
+            "Female",
+            "Male"
+        ],
+        "Caste": [
+            "General",
+            "OBC",
+            "SC",
+            "ST"
+        ],
+        "Area": [
+            "BTM Layout",
+            "Banashankari",
+            "Hebbal",
+            "Indiranagar",
+            "Jayanagar",
+            "Koramangala",
+            "Malleswaram",
+            "Rajajinagar",
+            "Whitefield",
+            "Yelahanka"
+        ],
+        "School": [
+            "Govt Girls School",
+            "Govt High School",
+            "Govt Model School",
+            "Govt PU College",
+            "Govt Primary School"
+        ],
+        "Parental_Education": [
+            "Graduate",
+            "Higher",
+            "Primary",
+            "Secondary",
+            "Unknown"
+        ],
+        "Family_Income": [
+            "High",
+            "Low",
+            "Medium"
+        ],
+        "Scholarship": [
+            "No",
+            "Yes"
+        ],
+        "Special_Care": [
+            "Disability",
+            "Minority",
+            "Unknown"
+        ],
+        "Parent_Type": [
+            "Both",
+            "Orphan",
+            "Single Parent"
+        ]
+    }
+}

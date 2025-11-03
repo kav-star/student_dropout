@@ -1,0 +1,301 @@
+Student_ID,School,Area,Gender,Caste,Standard,Age,Attendance,Previous_Score,Parental_Education,Family_Income,Scholarship,Distance,Special_Care,Parent_Type
+STD923,Govt Primary School,Rajajinagar,Female,SC,8,13,88,53,None,Low,Yes,10.81,Disability,Both
+STD570,Govt Primary School,Hebbal,Male,OBC,12,17,78,83,Higher,Medium,No,18.81,Minority,Single Parent
+STD652,Govt High School,Malleswaram,Male,ST,7,12,64,62,Primary,Low,Yes,16.08,Disability,Orphan
+STD967,Govt High School,Rajajinagar,Male,General,5,10,92,53,Graduate,High,Yes,19.96,Minority,Orphan
+STD404,Govt High School,Hebbal,Male,OBC,10,15,57,65,Higher,Low,No,7.34,Minority,Both
+STD928,Govt PU College,Hebbal,Male,General,2,7,70,67,Higher,Low,Yes,15.46,None,Orphan
+STD206,Govt High School,Rajajinagar,Female,General,2,7,88,54,Higher,Low,No,8.34,Minority,Single Parent
+STD408,Govt High School,Banashankari,Male,ST,7,12,68,47,Higher,Low,No,9.86,Minority,Single Parent
+STD752,Govt Model School,Whitefield,Male,SC,12,17,72,95,Higher,High,No,12.74,None,Both
+STD829,Govt Primary School,Banashankari,Male,General,8,13,60,83,Secondary,High,Yes,17.54,Minority,Single Parent
+STD535,Govt Primary School,Malleswaram,Male,General,1,6,60,64,Graduate,Medium,Yes,19.69,None,Both
+STD611,Govt Primary School,Hebbal,Female,ST,6,11,73,90,Higher,High,Yes,15.48,None,Single Parent
+STD448,Govt Girls School,Hebbal,Male,OBC,4,9,85,70,Graduate,High,No,8.65,Minority,Both
+STD737,Govt Primary School,Malleswaram,Female,ST,6,11,89,62,Secondary,Medium,Yes,8.72,Minority,Orphan
+STD750,Govt PU College,Indiranagar,Male,OBC,1,6,73,97,Secondary,High,No,14.88,Disability,Single Parent
+STD864,Govt High School,Whitefield,Female,General,8,13,52,62,Graduate,Low,Yes,5.16,None,Single Parent
+STD845,Govt Girls School,Koramangala,Male,ST,12,17,71,43,None,Low,No,2.65,Disability,Both
+STD532,Govt High School,BTM Layout,Female,SC,10,15,51,50,Primary,Medium,Yes,7.42,Minority,Both
+STD144,Govt PU College,Rajajinagar,Female,OBC,10,15,73,77,None,Medium,Yes,6.1,Disability,Single Parent
+STD388,Govt High School,Banashankari,Male,General,11,16,93,49,None,Medium,Yes,6.28,None,Both
+STD845,Govt PU College,BTM Layout,Female,SC,4,9,79,37,None,Low,No,5.06,Disability,Single Parent
+STD136,Govt PU College,Koramangala,Female,SC,12,17,87,36,Higher,High,No,1.32,None,Orphan
+STD588,Govt Primary School,Hebbal,Male,OBC,2,7,51,96,Secondary,Low,Yes,0.85,Minority,Both
+STD609,Govt Model School,Hebbal,Male,ST,1,6,70,46,None,Medium,Yes,19.76,Minority,Single Parent
+STD303,Govt PU College,BTM Layout,Female,SC,6,11,82,62,Secondary,High,No,8.84,None,Orphan
+STD746,Govt PU College,Indiranagar,Male,OBC,11,16,61,77,Graduate,High,No,7.99,Minority,Orphan
+STD590,Govt PU College,Rajajinagar,Female,OBC,6,11,71,88,Primary,Low,No,13.75,Minority,Single Parent
+STD670,Govt High School,Jayanagar,Female,OBC,3,8,93,51,Graduate,Medium,Yes,4.76,Minority,Both
+STD572,Govt High School,Indiranagar,Female,ST,6,11,74,59,Graduate,Low,No,19.02,Minority,Single Parent
+STD414,Govt Primary School,Yelahanka,Male,SC,6,11,98,67,Higher,High,Yes,15.83,None,Orphan
+STD616,Govt PU College,Yelahanka,Female,SC,3,8,76,80,Primary,Low,No,2.24,Disability,Single Parent
+STD613,Govt High School,Indiranagar,Male,SC,6,11,91,83,Graduate,Low,Yes,8.64,Disability,Both
+STD830,Govt High School,Yelahanka,Male,OBC,1,6,77,37,Graduate,Medium,No,17.64,Minority,Orphan
+STD373,Govt Primary School,Hebbal,Female,General,5,10,65,56,Primary,Medium,No,18.92,Disability,Single Parent
+STD585,Govt Primary School,Jayanagar,Male,OBC,6,11,64,56,Primary,High,No,9.61,Disability,Both
+STD930,Govt High School,BTM Layout,Male,ST,11,16,96,50,Graduate,Low,No,12.46,Minority,Orphan
+STD340,Govt Model School,BTM Layout,Female,OBC,2,7,100,59,Primary,Low,No,3.76,Minority,Both
+STD322,Govt Girls School,Hebbal,Male,General,5,10,93,57,Graduate,Low,Yes,19.83,Disability,Orphan
+STD223,Govt Model School,Whitefield,Male,SC,10,15,52,93,Graduate,High,No,5.02,None,Single Parent
+STD658,Govt Girls School,Rajajinagar,Male,OBC,10,15,86,98,Higher,High,No,18.88,Minority,Both
+STD150,Govt Model School,Whitefield,Female,ST,3,8,100,90,None,Medium,No,13.17,None,Orphan
+STD653,Govt PU College,BTM Layout,Male,General,9,14,56,77,Graduate,Medium,Yes,12.35,Disability,Both
+STD495,Govt Girls School,Hebbal,Female,General,1,6,70,48,Secondary,Medium,No,10.5,Minority,Both
+STD719,Govt High School,Malleswaram,Female,OBC,5,10,58,33,None,Low,Yes,5,None,Single Parent
+STD283,Govt Primary School,Banashankari,Female,General,6,11,88,64,None,Low,No,3.94,Minority,Both
+STD201,Govt PU College,Banashankari,Female,ST,8,13,67,93,None,Medium,No,4.8,Disability,Orphan
+STD719,Govt Girls School,Indiranagar,Male,SC,3,8,53,78,Higher,Low,Yes,4.14,None,Orphan
+STD653,Govt PU College,BTM Layout,Female,SC,7,12,74,46,Graduate,Medium,No,15.7,Disability,Orphan
+STD424,Govt Model School,BTM Layout,Male,ST,7,12,63,73,Higher,High,Yes,7.33,Disability,Orphan
+STD533,Govt PU College,Koramangala,Female,ST,1,6,99,59,Graduate,Medium,Yes,1.63,Minority,Single Parent
+STD884,Govt Model School,Koramangala,Male,SC,9,14,58,75,Higher,High,No,19.4,None,Both
+STD443,Govt Model School,Koramangala,Male,ST,8,13,75,35,Higher,Low,Yes,17.73,Disability,Single Parent
+STD792,Govt Model School,Malleswaram,Male,General,6,11,51,66,Secondary,Medium,No,18.59,Disability,Both
+STD596,Govt PU College,BTM Layout,Female,OBC,7,12,69,53,Higher,Low,No,19.9,None,Both
+STD381,Govt PU College,Banashankari,Male,SC,7,12,77,75,Primary,High,Yes,3.89,Disability,Both
+STD921,Govt High School,BTM Layout,Female,ST,9,14,96,82,Secondary,High,Yes,8.23,Disability,Single Parent
+STD235,Govt Primary School,Rajajinagar,Male,SC,3,8,56,89,Higher,High,Yes,15.29,None,Both
+STD922,Govt High School,Rajajinagar,Male,OBC,2,7,93,92,None,Low,Yes,14.07,None,Single Parent
+STD732,Govt High School,Koramangala,Female,General,10,15,57,61,Primary,Low,No,3.5,None,Orphan
+STD385,Govt Model School,Banashankari,Female,ST,9,14,96,62,Primary,Low,No,16.41,None,Orphan
+STD202,Govt Girls School,Malleswaram,Female,OBC,9,14,84,96,Primary,Low,Yes,4.88,Minority,Both
+STD651,Govt Primary School,Whitefield,Female,ST,3,8,63,47,Secondary,High,No,4.86,None,Single Parent
+STD346,Govt PU College,Banashankari,Female,ST,8,13,66,54,Higher,High,No,10.97,Minority,Orphan
+STD567,Govt Girls School,Rajajinagar,Male,ST,4,9,85,83,Higher,Medium,No,12.06,Minority,Single Parent
+STD553,Govt Girls School,Malleswaram,Male,SC,4,9,99,87,None,Medium,No,11.81,Minority,Single Parent
+STD135,Govt Model School,Banashankari,Male,SC,9,14,89,96,None,Low,Yes,2.28,Disability,Both
+STD848,Govt Model School,Indiranagar,Female,SC,9,14,53,75,Primary,High,Yes,17.61,Minority,Orphan
+STD662,Govt PU College,Jayanagar,Male,ST,5,10,51,53,None,High,No,5.68,Minority,Both
+STD973,Govt Girls School,Banashankari,Female,SC,9,14,55,61,Secondary,High,Yes,3.03,Disability,Both
+STD344,Govt Model School,Malleswaram,Male,ST,2,7,91,76,Higher,Medium,Yes,17.83,Disability,Orphan
+STD389,Govt Girls School,BTM Layout,Male,OBC,9,14,53,52,Primary,Medium,Yes,19.14,Disability,Orphan
+STD705,Govt PU College,Indiranagar,Male,General,11,16,78,95,None,High,No,17.31,None,Single Parent
+STD736,Govt High School,Malleswaram,Male,OBC,2,7,67,56,Secondary,High,No,16.29,Disability,Orphan
+STD319,Govt High School,Koramangala,Female,ST,6,11,75,31,Secondary,High,No,13.28,Disability,Single Parent
+STD685,Govt Girls School,Jayanagar,Female,ST,4,9,93,46,None,Medium,Yes,11.24,Minority,Single Parent
+STD763,Govt High School,Banashankari,Male,ST,11,16,83,62,Higher,High,No,2.2,Disability,Single Parent
+STD340,Govt High School,Yelahanka,Male,General,7,12,59,38,None,High,No,8.46,None,Orphan
+STD538,Govt Girls School,Banashankari,Female,General,1,6,85,72,Primary,Low,Yes,7.77,Disability,Both
+STD311,Govt Girls School,Malleswaram,Male,OBC,7,12,63,77,None,Low,No,5.57,None,Single Parent
+STD920,Govt Girls School,Yelahanka,Male,ST,12,17,80,68,Secondary,Medium,No,14.61,Disability,Both
+STD153,Govt Model School,Banashankari,Male,OBC,5,10,97,71,None,High,Yes,10.17,Disability,Both
+STD761,Govt Primary School,Whitefield,Female,General,8,13,64,55,Higher,High,Yes,2.08,Disability,Orphan
+STD849,Govt Model School,BTM Layout,Female,General,10,15,57,79,Graduate,Low,Yes,4.79,Disability,Both
+STD476,Govt High School,BTM Layout,Male,General,9,14,63,54,None,Medium,No,13.82,None,Both
+STD882,Govt Girls School,Banashankari,Female,General,1,6,72,53,Higher,Low,No,1.98,None,Orphan
+STD346,Govt High School,Banashankari,Female,General,7,12,89,42,Higher,Low,No,17.1,Minority,Single Parent
+STD493,Govt Girls School,Hebbal,Male,SC,9,14,70,89,Secondary,Low,Yes,10.16,None,Both
+STD521,Govt High School,Whitefield,Male,OBC,6,11,65,36,Higher,Low,Yes,9.87,Disability,Orphan
+STD219,Govt Model School,Rajajinagar,Male,OBC,4,9,94,86,Higher,High,No,12.05,Minority,Both
+STD256,Govt Girls School,Hebbal,Male,ST,5,10,67,65,Higher,High,No,16.58,Minority,Both
+STD477,Govt Primary School,Banashankari,Female,OBC,8,13,96,74,Higher,Low,Yes,7.28,Minority,Single Parent
+STD293,Govt Primary School,Whitefield,Male,General,4,9,73,49,Primary,Medium,Yes,13.72,Disability,Both
+STD349,Govt Girls School,Malleswaram,Female,SC,1,6,75,94,Primary,Medium,Yes,11.53,None,Orphan
+STD499,Govt PU College,Hebbal,Male,ST,9,14,74,37,Secondary,Medium,Yes,5.71,Disability,Both
+STD927,Govt Girls School,Koramangala,Female,OBC,10,15,94,45,None,Medium,No,17.63,Minority,Single Parent
+STD198,Govt Primary School,Malleswaram,Male,ST,11,16,90,43,Higher,Low,Yes,16.05,Disability,Single Parent
+STD990,Govt PU College,Yelahanka,Female,ST,5,10,78,44,None,High,No,13.34,Disability,Orphan
+STD387,Govt Girls School,Yelahanka,Male,ST,3,8,64,95,None,Medium,No,17.09,None,Single Parent
+STD836,Govt Model School,Whitefield,Male,SC,9,14,94,61,Secondary,Low,No,17.41,None,Both
+STD139,Govt Model School,Malleswaram,Male,ST,4,9,50,92,Higher,Medium,Yes,14.31,Minority,Single Parent
+STD244,Govt Model School,Indiranagar,Female,General,1,6,74,80,Higher,Medium,Yes,16.82,Disability,Orphan
+STD794,Govt PU College,Whitefield,Female,SC,2,7,56,54,Graduate,Low,Yes,14.1,Disability,Single Parent
+STD563,Govt Primary School,Banashankari,Male,General,6,11,58,87,None,High,Yes,13.76,None,Single Parent
+STD913,Govt PU College,Indiranagar,Female,ST,7,12,73,92,None,High,No,12.56,Disability,Single Parent
+STD785,Govt Primary School,Whitefield,Female,ST,7,12,50,91,Primary,Low,Yes,15.18,Disability,Orphan
+STD936,Govt High School,BTM Layout,Female,General,1,6,93,51,Graduate,High,Yes,3.59,Disability,Single Parent
+STD561,Govt High School,Koramangala,Female,General,10,15,57,87,Primary,Low,No,17.68,None,Single Parent
+STD736,Govt PU College,Whitefield,Female,ST,10,15,73,87,Primary,Low,Yes,17.5,Minority,Both
+STD334,Govt Girls School,Koramangala,Male,OBC,6,11,60,78,Primary,Low,No,1.07,Minority,Orphan
+STD617,Govt Girls School,Yelahanka,Female,OBC,4,9,100,81,Secondary,High,No,16.6,Disability,Single Parent
+STD519,Govt Model School,Banashankari,Female,OBC,11,16,66,71,Secondary,Low,No,3.01,Minority,Orphan
+STD534,Govt High School,BTM Layout,Female,OBC,12,17,57,99,Primary,Medium,No,7.03,None,Single Parent
+STD830,Govt Primary School,Whitefield,Female,General,7,12,84,44,Graduate,High,No,15,None,Single Parent
+STD521,Govt Model School,Banashankari,Female,SC,2,7,84,83,None,High,No,3.63,Minority,Single Parent
+STD693,Govt Model School,BTM Layout,Male,General,11,16,82,89,Graduate,High,No,16.45,Minority,Both
+STD426,Govt PU College,Hebbal,Male,OBC,5,10,54,37,Higher,High,No,16.73,Disability,Both
+STD651,Govt PU College,Hebbal,Male,OBC,9,14,91,82,Secondary,Medium,Yes,10.4,Minority,Both
+STD287,Govt Model School,Koramangala,Male,OBC,5,10,88,89,None,High,Yes,0.62,Disability,Orphan
+STD743,Govt High School,Hebbal,Male,OBC,8,13,90,34,None,High,Yes,6.1,Disability,Orphan
+STD680,Govt Girls School,Banashankari,Male,SC,12,17,77,97,Higher,Low,Yes,12.53,None,Both
+STD968,Govt Model School,Malleswaram,Female,SC,5,10,56,35,Higher,High,No,19.63,None,Orphan
+STD197,Govt Primary School,Rajajinagar,Female,ST,4,9,58,76,Primary,Medium,Yes,12.82,None,Single Parent
+STD649,Govt Primary School,Koramangala,Female,OBC,1,6,57,84,Secondary,Medium,No,5.57,None,Single Parent
+STD434,Govt High School,Malleswaram,Female,SC,6,11,61,69,Secondary,Medium,Yes,12.86,Minority,Single Parent
+STD865,Govt Primary School,Jayanagar,Male,OBC,7,12,83,81,Graduate,Medium,Yes,11.03,None,Both
+STD486,Govt Primary School,Malleswaram,Female,ST,11,16,82,45,Primary,High,Yes,15.71,Minority,Orphan
+STD565,Govt Girls School,Koramangala,Female,General,10,15,97,42,Primary,High,No,2.59,None,Both
+STD260,Govt High School,Rajajinagar,Male,ST,9,14,72,59,Primary,Medium,Yes,15.34,Minority,Orphan
+STD249,Govt PU College,Koramangala,Male,General,11,16,73,48,Primary,Medium,No,11.05,Disability,Single Parent
+STD112,Govt PU College,Banashankari,Male,General,1,6,86,46,Secondary,High,No,19.28,Minority,Both
+STD800,Govt Primary School,Malleswaram,Female,OBC,5,10,84,92,Secondary,Medium,Yes,7.17,Minority,Orphan
+STD509,Govt Girls School,Rajajinagar,Female,OBC,4,9,93,48,Primary,Low,Yes,12.84,None,Orphan
+STD383,Govt High School,Whitefield,Male,SC,7,12,89,87,Graduate,Medium,Yes,18.67,Minority,Single Parent
+STD262,Govt Primary School,Malleswaram,Female,ST,8,13,71,84,None,Medium,No,2.5,Disability,Both
+STD945,Govt High School,Koramangala,Female,General,4,9,76,91,None,Low,Yes,18.78,Disability,Both
+STD272,Govt Model School,BTM Layout,Female,SC,9,14,84,52,Graduate,Low,No,13.91,None,Both
+STD948,Govt PU College,Banashankari,Female,OBC,4,9,50,38,Primary,High,No,1.82,Disability,Single Parent
+STD266,Govt Model School,Koramangala,Male,SC,6,11,84,41,Secondary,High,Yes,6.37,Minority,Both
+STD904,Govt Model School,Malleswaram,Female,OBC,10,15,86,30,None,Low,Yes,14.31,Disability,Single Parent
+STD802,Govt Model School,BTM Layout,Male,ST,12,17,96,87,Higher,Low,No,1.81,None,Single Parent
+STD242,Govt Primary School,Whitefield,Male,ST,1,6,63,30,Higher,High,No,11.85,Minority,Single Parent
+STD130,Govt Girls School,Indiranagar,Female,OBC,10,15,52,63,Graduate,Medium,No,7.24,None,Orphan
+STD318,Govt High School,Hebbal,Female,General,6,11,50,77,Primary,Low,Yes,12.61,Minority,Both
+STD502,Govt Primary School,Indiranagar,Female,ST,9,14,54,30,None,High,No,1.39,Disability,Both
+STD991,Govt High School,Banashankari,Female,SC,2,7,75,45,Primary,Medium,Yes,17.49,None,Single Parent
+STD675,Govt Primary School,Yelahanka,Female,SC,1,6,63,90,None,Low,No,19.48,None,Single Parent
+STD546,Govt High School,Jayanagar,Male,ST,3,8,88,93,Graduate,Medium,No,19.39,Minority,Both
+STD330,Govt Girls School,Whitefield,Male,ST,9,14,76,92,Graduate,High,Yes,15.12,None,Single Parent
+STD221,Govt High School,Whitefield,Female,OBC,8,13,58,98,Higher,Low,No,3.04,Minority,Both
+STD327,Govt Girls School,Koramangala,Male,SC,12,17,64,51,Primary,Medium,Yes,15.29,Minority,Orphan
+STD367,Govt Primary School,Yelahanka,Male,ST,8,13,64,96,Higher,Low,Yes,0.98,Minority,Single Parent
+STD214,Govt Model School,Jayanagar,Female,ST,9,14,75,55,Primary,Medium,No,0.93,Minority,Both
+STD812,Govt High School,Koramangala,Male,SC,11,16,91,45,Higher,High,Yes,6.81,Disability,Single Parent
+STD251,Govt PU College,Jayanagar,Male,SC,3,8,62,80,Secondary,High,Yes,10.03,Minority,Both
+STD469,Govt Girls School,Indiranagar,Male,General,5,10,100,86,Secondary,Low,No,15.52,None,Both
+STD897,Govt Primary School,Indiranagar,Male,OBC,8,13,81,58,Secondary,Medium,Yes,13.82,Disability,Single Parent
+STD835,Govt High School,Jayanagar,Male,General,7,12,88,98,Secondary,Low,Yes,9.2,None,Orphan
+STD255,Govt Model School,BTM Layout,Female,ST,6,11,98,76,None,Low,Yes,5.84,Disability,Both
+STD625,Govt High School,Yelahanka,Female,General,2,7,81,91,Secondary,Medium,No,19.94,Minority,Both
+STD680,Govt PU College,Hebbal,Male,OBC,1,6,53,98,Graduate,Medium,Yes,8.81,Disability,Both
+STD801,Govt High School,BTM Layout,Female,OBC,10,15,79,45,Graduate,Medium,No,9.3,Disability,Orphan
+STD237,Govt PU College,Yelahanka,Male,OBC,7,12,86,77,None,High,No,3.69,None,Orphan
+STD247,Govt PU College,Banashankari,Female,General,12,17,72,68,Secondary,Low,Yes,16,None,Single Parent
+STD327,Govt Primary School,Malleswaram,Female,ST,8,13,88,62,Secondary,Low,Yes,14.03,Minority,Orphan
+STD579,Govt PU College,Yelahanka,Male,OBC,5,10,94,52,Secondary,High,Yes,4.81,Disability,Single Parent
+STD777,Govt Primary School,Banashankari,Male,General,5,10,64,39,Higher,Medium,No,2.11,Disability,Single Parent
+STD833,Govt Model School,Hebbal,Male,OBC,3,8,92,98,Primary,High,Yes,13.77,Disability,Orphan
+STD460,Govt Girls School,Yelahanka,Female,General,7,12,78,63,Higher,High,Yes,13.26,Minority,Single Parent
+STD234,Govt High School,Hebbal,Male,SC,4,9,85,81,Primary,High,Yes,5.83,Minority,Orphan
+STD561,Govt PU College,Yelahanka,Male,ST,12,17,62,39,Secondary,Low,Yes,19.04,Minority,Single Parent
+STD428,Govt High School,Indiranagar,Male,OBC,10,15,81,48,Secondary,High,Yes,3.45,Minority,Orphan
+STD144,Govt Model School,Malleswaram,Female,OBC,4,9,56,87,Higher,Low,No,8.93,Minority,Orphan
+STD924,Govt High School,BTM Layout,Female,ST,8,13,100,30,Higher,Low,No,18.9,None,Single Parent
+STD288,Govt High School,Jayanagar,Male,ST,4,9,71,98,Primary,Low,Yes,8.68,Disability,Both
+STD842,Govt High School,Malleswaram,Female,SC,1,6,77,33,Graduate,Medium,Yes,12.95,Disability,Single Parent
+STD232,Govt High School,Koramangala,Female,General,11,16,51,45,Primary,Low,Yes,8.25,Disability,Orphan
+STD916,Govt PU College,BTM Layout,Female,ST,8,13,91,53,Higher,Low,Yes,5.85,Disability,Both
+STD877,Govt Girls School,Yelahanka,Female,OBC,5,10,94,31,Higher,Medium,No,19.69,Disability,Single Parent
+STD287,Govt PU College,Banashankari,Male,SC,12,17,55,61,None,Low,Yes,8.48,Disability,Single Parent
+STD923,Govt PU College,Malleswaram,Female,OBC,5,10,77,53,Higher,High,No,17.93,Disability,Single Parent
+STD647,Govt Primary School,Hebbal,Female,OBC,10,15,77,41,None,High,No,4.98,Disability,Both
+STD972,Govt Girls School,BTM Layout,Male,ST,4,9,93,79,Graduate,Low,Yes,4.66,None,Orphan
+STD944,Govt PU College,Koramangala,Male,SC,7,12,93,64,Primary,Medium,No,1.11,Disability,Single Parent
+STD841,Govt PU College,Yelahanka,Female,SC,5,10,69,62,Primary,High,No,13.21,None,Single Parent
+STD783,Govt PU College,Koramangala,Female,SC,6,11,79,62,None,Medium,No,7.69,Minority,Single Parent
+STD304,Govt PU College,Jayanagar,Female,SC,1,6,60,90,Primary,Medium,No,17.35,Disability,Single Parent
+STD222,Govt High School,Banashankari,Female,OBC,2,7,77,80,Higher,High,Yes,9.73,Minority,Single Parent
+STD979,Govt High School,Rajajinagar,Male,ST,8,13,74,72,Secondary,Medium,Yes,19.38,Minority,Orphan
+STD937,Govt Girls School,Rajajinagar,Female,General,1,6,88,41,None,High,No,4.12,Minority,Orphan
+STD531,Govt Primary School,Whitefield,Male,SC,10,15,82,96,Primary,Medium,Yes,17.44,None,Single Parent
+STD469,Govt Primary School,Rajajinagar,Female,General,7,12,50,94,None,High,Yes,15.64,Minority,Both
+STD161,Govt Model School,Indiranagar,Female,General,12,17,76,62,None,Low,Yes,15.53,Minority,Orphan
+STD481,Govt Girls School,Indiranagar,Male,ST,6,11,62,69,Secondary,High,Yes,16.97,Minority,Both
+STD634,Govt Model School,Jayanagar,Female,General,12,17,90,72,Higher,High,Yes,15.34,Disability,Orphan
+STD239,Govt PU College,Hebbal,Female,SC,1,6,52,73,None,High,No,12.71,Disability,Single Parent
+STD602,Govt Model School,Whitefield,Male,ST,7,12,88,58,Primary,High,Yes,3.06,None,Orphan
+STD871,Govt Model School,Jayanagar,Female,OBC,3,8,55,42,Graduate,Medium,Yes,1.13,None,Single Parent
+STD142,Govt Primary School,Banashankari,Female,SC,11,16,57,41,None,Low,Yes,18.46,Disability,Orphan
+STD592,Govt PU College,Banashankari,Female,General,3,8,76,75,None,High,Yes,12.52,None,Single Parent
+STD224,Govt Primary School,Whitefield,Female,OBC,10,15,58,31,Secondary,Medium,No,16.03,Disability,Single Parent
+STD398,Govt PU College,Banashankari,Female,OBC,11,16,86,64,Higher,Low,No,9.89,Minority,Single Parent
+STD537,Govt PU College,Rajajinagar,Female,ST,10,15,82,37,Graduate,Low,No,2.79,Minority,Single Parent
+STD152,Govt Model School,Whitefield,Female,OBC,11,16,100,55,Primary,Low,No,2.94,None,Both
+STD607,Govt PU College,Koramangala,Female,ST,2,7,91,63,Graduate,Low,Yes,13.87,Disability,Single Parent
+STD994,Govt Primary School,Rajajinagar,Male,SC,9,14,93,36,Primary,High,No,8.89,Disability,Both
+STD194,Govt PU College,Banashankari,Male,General,6,11,73,97,Higher,High,Yes,4.41,None,Both
+STD308,Govt Primary School,BTM Layout,Female,ST,11,16,64,87,Primary,Medium,Yes,10.09,Disability,Single Parent
+STD140,Govt Primary School,Whitefield,Female,SC,11,16,81,58,Secondary,Medium,Yes,1.75,Minority,Both
+STD821,Govt Primary School,Yelahanka,Female,General,9,14,81,65,Secondary,Medium,Yes,11.85,None,Orphan
+STD556,Govt PU College,Banashankari,Male,ST,4,9,73,50,Secondary,Low,Yes,5.75,None,Single Parent
+STD988,Govt High School,Koramangala,Male,OBC,3,8,90,65,Secondary,Low,No,16.05,Disability,Both
+STD537,Govt Primary School,Indiranagar,Male,SC,8,13,98,39,Graduate,High,No,6.55,None,Single Parent
+STD840,Govt High School,BTM Layout,Female,ST,7,12,98,53,Higher,Low,No,9.38,Disability,Single Parent
+STD242,Govt Girls School,Rajajinagar,Male,General,12,17,61,93,Primary,Low,No,0.73,Disability,Single Parent
+STD811,Govt Primary School,Whitefield,Male,General,10,15,88,78,Primary,Low,Yes,1.91,Disability,Both
+STD838,Govt High School,Hebbal,Male,ST,7,12,51,65,Secondary,Medium,No,8.15,Disability,Orphan
+STD291,Govt High School,Jayanagar,Male,SC,11,16,52,53,Secondary,Medium,Yes,9.86,Disability,Orphan
+STD517,Govt Model School,Banashankari,Male,General,6,11,98,52,None,High,No,12.2,None,Both
+STD843,Govt Primary School,Malleswaram,Male,General,9,14,86,91,Higher,Low,Yes,6.19,Minority,Single Parent
+STD784,Govt Girls School,Malleswaram,Female,General,12,17,98,66,Graduate,Low,Yes,14.05,Minority,Both
+STD254,Govt PU College,Malleswaram,Male,SC,2,7,66,41,Primary,High,No,17.27,None,Both
+STD986,Govt Girls School,Whitefield,Female,General,4,9,98,84,None,Low,Yes,15.71,None,Both
+STD764,Govt Model School,BTM Layout,Male,ST,1,6,51,42,None,Low,Yes,1.27,Minority,Single Parent
+STD529,Govt PU College,Whitefield,Male,ST,4,9,51,52,Primary,Medium,No,9.87,Minority,Both
+STD968,Govt PU College,Rajajinagar,Male,ST,12,17,77,59,Graduate,High,Yes,2.55,Minority,Single Parent
+STD703,Govt PU College,Koramangala,Male,SC,6,11,72,46,None,High,No,5.22,Minority,Both
+STD339,Govt PU College,Yelahanka,Male,OBC,3,8,86,91,None,High,No,19.74,Minority,Orphan
+STD584,Govt Primary School,Indiranagar,Male,SC,9,14,81,42,Higher,High,No,3.28,Disability,Both
+STD460,Govt PU College,BTM Layout,Male,General,11,16,82,88,Graduate,Medium,Yes,10.23,None,Both
+STD417,Govt PU College,BTM Layout,Female,SC,10,15,50,48,None,Medium,Yes,12.55,Disability,Orphan
+STD856,Govt Girls School,Jayanagar,Male,SC,7,12,68,78,Graduate,Low,Yes,14.2,Minority,Single Parent
+STD160,Govt PU College,Malleswaram,Female,OBC,5,10,51,41,Primary,Low,No,11.41,Minority,Single Parent
+STD902,Govt Girls School,Hebbal,Male,General,6,11,93,90,Secondary,Low,Yes,0.69,Minority,Both
+STD191,Govt Girls School,Jayanagar,Female,SC,4,9,75,48,None,Low,No,6.87,Disability,Orphan
+STD511,Govt High School,Indiranagar,Male,ST,1,6,81,38,Higher,Medium,No,10.6,Disability,Single Parent
+STD107,Govt Girls School,Indiranagar,Male,General,5,10,55,100,Primary,High,Yes,2.21,Minority,Both
+STD496,Govt Girls School,Yelahanka,Male,ST,1,6,81,57,Graduate,Medium,No,7.34,Disability,Orphan
+STD924,Govt Model School,Banashankari,Female,OBC,3,8,53,81,Primary,Low,Yes,1.15,Disability,Single Parent
+STD781,Govt High School,Yelahanka,Male,General,5,10,60,45,None,Medium,Yes,2.03,Minority,Single Parent
+STD506,Govt Girls School,Indiranagar,Male,SC,12,17,66,98,Graduate,High,Yes,8.24,Disability,Orphan
+STD503,Govt Primary School,Hebbal,Male,General,7,12,87,41,Secondary,High,Yes,3.09,None,Orphan
+STD130,Govt Model School,Whitefield,Male,OBC,4,9,73,54,Primary,Medium,Yes,11.57,None,Orphan
+STD695,Govt Model School,Indiranagar,Male,General,5,10,54,81,None,Medium,No,13.94,None,Orphan
+STD963,Govt Girls School,BTM Layout,Male,General,6,11,83,82,Higher,Medium,No,16.11,None,Both
+STD876,Govt Girls School,Malleswaram,Female,OBC,12,17,55,52,Graduate,Low,No,4.4,Minority,Orphan
+STD722,Govt Girls School,Whitefield,Female,ST,9,14,71,45,Primary,Medium,Yes,3.77,Minority,Single Parent
+STD859,Govt PU College,Hebbal,Female,OBC,10,15,60,86,Primary,Medium,Yes,2.54,Minority,Single Parent
+STD170,Govt Girls School,Jayanagar,Male,OBC,8,13,97,68,Secondary,Medium,Yes,12.91,None,Both
+STD921,Govt High School,Whitefield,Female,General,5,10,65,82,Secondary,High,No,14.28,None,Single Parent
+STD182,Govt Girls School,Yelahanka,Male,General,10,15,82,71,Higher,High,Yes,1.12,Disability,Single Parent
+STD141,Govt Primary School,Rajajinagar,Male,OBC,3,8,58,87,Higher,Low,No,18.76,Disability,Orphan
+STD818,Govt High School,BTM Layout,Male,ST,8,13,55,68,None,Low,No,1.51,None,Single Parent
+STD779,Govt Model School,Hebbal,Male,General,8,13,65,43,None,High,Yes,11.06,None,Both
+STD925,Govt High School,BTM Layout,Female,OBC,2,7,78,34,Higher,High,Yes,14.33,None,Orphan
+STD464,Govt Primary School,Rajajinagar,Male,OBC,12,17,52,64,Higher,High,No,17.48,None,Orphan
+STD121,Govt High School,Whitefield,Female,OBC,5,10,69,47,Graduate,Medium,Yes,14.42,Disability,Both
+STD197,Govt PU College,Indiranagar,Male,ST,11,16,85,38,Secondary,Medium,No,16.13,None,Orphan
+STD114,Govt High School,Yelahanka,Male,General,9,14,68,87,None,High,Yes,7.12,Disability,Orphan
+STD718,Govt Model School,Hebbal,Female,SC,6,11,75,46,Secondary,Medium,Yes,16.39,None,Both
+STD952,Govt High School,Yelahanka,Female,ST,10,15,52,36,Secondary,Medium,No,2.06,None,Orphan
+STD729,Govt High School,Hebbal,Male,General,4,9,68,75,Higher,Low,Yes,17.95,None,Both
+STD321,Govt Model School,Banashankari,Female,OBC,8,13,69,42,Graduate,High,No,11.18,Disability,Both
+STD200,Govt Girls School,Jayanagar,Female,General,11,16,81,69,Primary,High,Yes,16.44,Disability,Single Parent
+STD712,Govt High School,Banashankari,Female,SC,9,14,56,71,Graduate,Medium,No,9.32,Minority,Single Parent
+STD536,Govt Girls School,BTM Layout,Female,SC,6,11,90,38,Graduate,High,No,13.05,None,Orphan
+STD369,Govt PU College,Malleswaram,Male,OBC,9,14,82,79,Secondary,Low,Yes,10.76,Minority,Orphan
+STD939,Govt Model School,Yelahanka,Female,ST,4,9,89,56,Graduate,Low,No,14.77,Minority,Both
+STD994,Govt Primary School,Whitefield,Male,ST,4,9,88,95,None,Low,Yes,2.09,Disability,Orphan
+STD532,Govt Model School,Rajajinagar,Female,OBC,1,6,67,34,Secondary,High,Yes,1.68,Disability,Both
+STD660,Govt PU College,BTM Layout,Female,ST,9,14,89,58,None,High,Yes,5.32,Minority,Both
+STD770,Govt PU College,Jayanagar,Male,SC,10,15,50,66,Primary,High,No,3.61,None,Orphan
+STD828,Govt Model School,BTM Layout,Male,SC,12,17,60,67,Secondary,High,No,17.5,Disability,Both
+STD479,Govt PU College,BTM Layout,Male,SC,4,9,77,37,Primary,High,Yes,4.77,None,Single Parent
+STD885,Govt PU College,Indiranagar,Female,General,3,8,74,94,Secondary,Low,Yes,19.53,None,Orphan
+STD511,Govt High School,Rajajinagar,Male,SC,6,11,99,46,Higher,Medium,No,7.07,Minority,Single Parent
+STD635,Govt Primary School,BTM Layout,Male,ST,3,8,72,100,Graduate,Low,Yes,4.05,Minority,Orphan
+STD923,Govt High School,Banashankari,Male,General,10,15,80,74,Higher,High,Yes,15.9,Minority,Both
+STD470,Govt PU College,Malleswaram,Male,ST,10,15,79,33,Primary,Low,No,13.34,Minority,Orphan
+STD896,Govt High School,Koramangala,Female,SC,2,7,91,65,Graduate,High,Yes,10.21,Disability,Single Parent
+STD947,Govt PU College,Whitefield,Male,SC,2,7,84,99,Secondary,High,No,11.33,Disability,Both
+STD372,Govt Primary School,BTM Layout,Male,OBC,6,11,56,60,Graduate,Low,Yes,14.52,Minority,Orphan
+STD211,Govt Primary School,Koramangala,Male,General,8,13,65,48,None,High,No,4.95,Disability,Orphan
+STD571,Govt Primary School,Jayanagar,Male,OBC,3,8,75,90,Graduate,Medium,Yes,19.93,Minority,Orphan
+STD307,Govt Girls School,Banashankari,Male,General,11,16,97,83,None,High,Yes,19.51,None,Single Parent
+STD314,Govt PU College,Jayanagar,Female,ST,8,13,98,68,Graduate,Medium,No,13.18,None,Single Parent
+STD729,Govt High School,Jayanagar,Female,OBC,9,14,51,48,None,Medium,Yes,4.39,None,Orphan
+STD209,Govt PU College,Banashankari,Male,ST,7,12,50,68,Primary,High,No,13.76,Minority,Both
+STD424,Govt Model School,Banashankari,Male,ST,1,6,97,96,Higher,Low,Yes,1.91,None,Both
+STD340,Govt Girls School,Jayanagar,Female,SC,4,9,61,74,Secondary,Medium,No,1.1,Disability,Single Parent
+STD239,Govt Girls School,Rajajinagar,Female,SC,9,14,54,42,Graduate,Low,No,5.52,None,Both
+STD157,Govt High School,Jayanagar,Male,OBC,11,16,86,87,Higher,Medium,No,9.52,None,Single Parent
+STD886,Govt Model School,Malleswaram,Male,SC,2,7,81,49,Secondary,High,No,17.43,None,Orphan
+STD374,Govt Girls School,Banashankari,Female,OBC,3,8,58,90,Secondary,High,Yes,14.68,Disability,Single Parent
+STD202,Govt Girls School,Jayanagar,Male,General,10,15,90,68,None,Medium,Yes,14.98,Minority,Single Parent
+STD604,Govt PU College,Hebbal,Female,General,6,11,84,30,Primary,High,No,8.8,Disability,Orphan
+STD853,Govt Primary School,Whitefield,Male,SC,4,9,68,32,Primary,Medium,No,7.25,Minority,Both
+STD580,Govt PU College,Hebbal,Male,ST,6,11,97,91,Higher,High,No,7.74,Minority,Single Parent
+STD778,Govt Primary School,Rajajinagar,Female,SC,1,6,65,92,Primary,Low,Yes,19.76,None,Single Parent
+STD654,Govt Primary School,Hebbal,Female,SC,3,8,52,54,Graduate,High,Yes,1.28,Minority,Orphan
+STD791,Govt High School,Malleswaram,Female,ST,8,13,69,85,Primary,Low,Yes,17.41,Disability,Both
