@@ -87,7 +87,7 @@ Team Members:
 1. **Clone the repository**
 ```bash
    git clone https://github.com/YOUR_USERNAME/dropoutai_app.git
-   cd dropoutai_app
+   cd student_dropout
 ```
 
 2. **Create virtual environment**
