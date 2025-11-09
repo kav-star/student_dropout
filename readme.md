@@ -101,15 +101,20 @@ Team Members:
    source venv/bin/activate
 ```
 
-3. **Install dependencies**
+3: Upgrade pip (Important!)
+```bash
+python -m pip install --upgrade pip
+```
+
+4. **Install dependencies**
 ```bash
    pip install -r requirements.txt
 ```
 
-4. **Run the application**
+5. **Run the application**
 ```bash
    streamlit run app.py
 ```
 
-5. **Open in browser**
+6. **Open in browser**
    - The app will automatically open at `http://localhost:8501`
