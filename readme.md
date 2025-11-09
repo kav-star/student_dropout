@@ -82,38 +82,7 @@ Team Members:
 - Kavya J
 - Kavya S
 
-## Step 4: Git Commands
-
-Run these commands in your terminal:
-
-1. Initialize git repository (if not already done)
-```bash
-git init
-```
-
-2. Add all files (respecting .gitignore)
-```bash
-git add .
-```
-
-3. Create first commit
-```bash
-git commit -m "Initial commit: DropoutAI - Student Dropout Prediction System"
-```
-
-4. Create repository on GitHub (go to github.com and create new repo)
-Then connect your local repo to GitHub:
-```bash
-git remote add origin https://github.com/YOUR_USERNAME/dropoutai_app.git
-```
-
-5. Push to GitHub
-```bash
-git branch -M main
-git push -u origin main
-```
-
-### Setup Instructions
+## Step 4: Setup Instructions
 
 1. **Clone the repository**
 ```bash
