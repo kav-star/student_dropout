@@ -108,12 +108,12 @@ python -m pip install --upgrade pip
 
 4. **Install dependencies**
 ```bash
-   pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 5. **Run the application**
 ```bash
-   streamlit run app.py
+streamlit run app.py
 ```
 
 6. **Open in browser**
