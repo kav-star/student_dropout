@@ -101,7 +101,7 @@ Team Members:
    source venv/bin/activate
 ```
 
-3: Upgrade pip (Important!)
+3. Upgrade pip (Important!)
 ```bash
 python -m pip install --upgrade pip
 ```
