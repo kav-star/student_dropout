@@ -5,6 +5,7 @@ A data-driven software solution developed to analyse student dropout patterns ac
 ## 🌟 Features
 
 - **Real-time Predictions**: Instant dropout risk assessment for individual students
+- **Cloud Database**: Secure data storage using MongoDB Atlas
 - **Interactive Dashboard**: Comprehensive data visualizations and insights
 - **Analytics**: Explore patterns and correlations in student data
 - **Risk Categorization**: High, Medium, Low risk levels with actionable recommendations
@@ -16,18 +17,30 @@ A data-driven software solution developed to analyse student dropout patterns ac
 
 ## 📊 Tech Stack
 
-- **Frontend**: Streamlit
-- **ML Framework**: Scikit-learn
-- **Data Processing**: Pandas, NumPy
-- **Visualization**: Plotly
-- **Model**: Random Forest Classifier
+### **Frontend**
+- **Streamlit** - Interactive web application framework
+
+### **Backend**
+- **Python 3.8+** - Core programming language
+- **scikit-learn** - Machine learning models
+- **Random Forest Classifier** - Primary prediction model
+
+### **Database**
+- **MongoDB Atlas** - Cloud-based NoSQL database
+- **pymongo** - MongoDB driver for Python
+
+### **Data Processing & Visualization**
+- **Pandas** - Data manipulation
+- **NumPy** - Numerical computations
+- **Plotly** - Interactive visualizations
 
 ## 🛠️ Installation
 
-### Prerequisites
+### **Prerequisites**
 
 - Python 3.8 or higher
-- pip
+- MongoDB Atlas account (Free tier available)
+- pip (Python package manager)
 
 ## 🎯 Usage
 
@@ -101,15 +114,53 @@ Team Members:
    source venv/bin/activate
 ```
 
-3. **Install dependencies**
+3. **Upgrade pip (Important!)**
 ```bash
-   pip install -r requirements.txt
+python -m pip install --upgrade pip
 ```
 
-4. **Run the application**
+4. **Install dependencies**
 ```bash
-   streamlit run app.py
+pip install -r requirements.txt
+```
+5. **Setup MongoDB Atlas**
+- Go to [MongoDB Atlas](https://www.mongodb.com/cloud/atlas/register)
+- Sign up for a free account
+- Create a new cluster (FREE M0 tier)
+- Go to **Database Access** → Add New Database User
+- Create username and password (save these!)
+- Grant **Read and Write** permissions
+- Go to **Network Access** → Add IP Address
+- For development: Allow access from anywhere (`0.0.0.0/0`)
+- For production: Add your specific IP addresses
+- Go to **Database** → **Connect** → **Connect your application**
+- Copy the connection string
+- Replace `<password>` with your actual password
+
+6. **Configure Environment Variables**
+Create a `.env` file in the root directory:
+
+```bash
+# Copy the example file
+cp .env.example .env
 ```
 
-5. **Open in browser**
-   - The app will automatically open at `http://localhost:8501`
+Edit `.env` and add your MongoDB credentials:
+
+```env
+MONGODB_URI=mongodb+srv://YOUR_USERNAME:YOUR_PASSWORD@YOUR_CLUSTER.mongodb.net/?retryWrites=true&w=majority
+DATABASE_NAME=dropout_prediction
+```
+
+7. **Migrate Data to MongoDB**
+Run the migration script to upload CSV data to MongoDB Atlas:
+
+```bash
+python data/migrate_to_mongo.py
+```
+
+8. **Run the application**
+```bash
+streamlit run app.py
+```
+The app will automatically open at `http://localhost:8501`

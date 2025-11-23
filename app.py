@@ -7,6 +7,7 @@ from plotly.subplots import make_subplots
 import json
 import sys
 import os
+from datetime import datetime as datetime
 
 # Add backend to path
 sys.path.append(os.path.join(os.path.dirname(__file__), 'backend'))
@@ -75,22 +76,19 @@ def load_predictor():
 
 @st.cache_data
 def load_dataset():
-    """Load the dataset"""
-    possible_paths = [
-        'data/school_dropout_data_with_features.csv',
-        '../data/school_dropout_data_with_features.csv',
-        'school_dropout_data_with_features.csv'
-    ]
-    for path in possible_paths:
-        try:
-            df = pd.read_csv(path)
-            print(f"✅ Dataset loaded from: {path}")
-            print(f"Columns: {list(df.columns)}")
-            return df
-        except:
-            continue
-    st.error("❌ Could not find dataset file!")
-    return pd.DataFrame()
+    """Load the dataset from MongoDB"""
+    try:
+        from backend.database import get_db_manager
+        db = get_db_manager()
+        df = db.get_all_students()
+        if df.empty:
+            st.error("❌ No data found in database!")
+        else:
+            print(f"✅ Loaded {len(df)} records from MongoDB")
+        return df
+    except Exception as e:
+        st.error(f"❌ Database connection error: {e}")
+        return pd.DataFrame()
 
 @st.cache_data
 def load_model_metrics():
@@ -327,6 +325,10 @@ def predict_page():
     
     predictor = load_predictor()
     valid_values = predictor.get_valid_values()
+
+    # Add database manager
+    from backend.database import get_db_manager
+    db = get_db_manager()
     
     # Create two columns for input form
     col1, col2 = st.columns(2)
@@ -384,6 +386,10 @@ def predict_page():
         # Make prediction
         with st.spinner("Analyzing student data..."):
             result = predictor.predict(student_data)
+
+            # Save prediction to database
+            student_id = student_data.get('Student_ID', f"PRED_{datetime.now().strftime('%Y%m%d%H%M%S')}")
+            db.save_prediction(student_id, student_data, result)
         
         # Display results
         st.markdown("---")
