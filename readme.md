@@ -138,14 +138,14 @@ pip install -r requirements.txt
 - Replace `<password>` with your actual password
 
 6. **Configure Environment Variables**
-Create a `.env` file in the root directory:
+- Create a `.env` file in the root directory:
 
 ```bash
 # Copy the example file
 cp .env.example .env
 ```
 
-Edit `.env` and add your MongoDB credentials:
+- Edit `.env` and add your MongoDB credentials:
 
 ```env
 MONGODB_URI=mongodb+srv://YOUR_USERNAME:YOUR_PASSWORD@YOUR_CLUSTER.mongodb.net/?retryWrites=true&w=majority
@@ -153,7 +153,7 @@ DATABASE_NAME=dropout_prediction
 ```
 
 7. **Migrate Data to MongoDB**
-Run the migration script to upload CSV data to MongoDB Atlas:
+- Run the migration script to upload CSV data to MongoDB Atlas:
 
 ```bash
 python data/migrate_to_mongo.py
@@ -163,4 +163,4 @@ python data/migrate_to_mongo.py
 ```bash
 streamlit run app.py
 ```
-The app will automatically open at `http://localhost:8501`
+- The app will automatically open at `http://localhost:8501`
