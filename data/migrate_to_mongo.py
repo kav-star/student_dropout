@@ -18,7 +18,7 @@ def migrate_csv_to_mongodb():
     print("="*50)
     
     # Load CSV
-    # csv_path = 'data/school_dropout_data_with_features.csv'
+    csv_path = 'data/school_dropout_data_with_features.csv'
     try:
         df = pd.read_csv(csv_path)
         print(f"✅ Loaded {len(df)} records from CSV")

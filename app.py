@@ -590,35 +590,22 @@ def about_page():
     st.title("ℹ️ About DropoutAI")
     
     st.markdown("""
-    ## 🎓 Project Overview
+## 🎓 Project Overview
     
-    School dropout in India presents a rather major obstacle in India for equal and inclusive education. Though this phenomenon is complicated and multi-casual, dropout rates are especially high at the secondary level. And typically the policy making does not really solve this issue. By means of machine learning, this paper offers a proactive web based response to this problem. It entails the creation of a thorough platform like a frontend website employing Streamlit Python Framework as well as strong backend supported by Random Forest and Gradient Boosting classifiers. This website provides a user-friendly interface where users can access and also analyze pre-trained model's results on the dashboard while exploring detailed analytics by different factors such as school, age, area and caste. This paper demonstrates how prediction analysis can be transformed into an actionable tool that helps people understand the reasons why student dropout. 
-    
-    High dropout rates in school education are a major concern, especially due to poverty, social, and economic factors. This system helps the Government of Karnataka identify and address dropout trends across various categories:
+School dropout in India presents a rather major obstacle in India for equal and inclusive education. Though this phenomenon is complicated and multi-casual, dropout rates are especially high at the secondary level. And typically the policy making does not really solve this issue. By means of machine learning, this paper offers a proactive web based response to this problem. It entails the creation of a thorough platform like a frontend website employing Streamlit Python Framework as well as strong backend supported by Random Forest and Gradient Boosting classifiers. This website provides a user-friendly interface where users can access and also analyze pre-trained model's results on the dashboard while exploring detailed analytics by different factors such as school, age, area and caste. This paper demonstrates how prediction analysis can be transformed into an actionable tool that helps people understand the reasons why student dropout. 
+High dropout rates in school education are a major concern, especially due to poverty, social, and economic factors.
 
-- School-wise
-- Area-wise (Urban/Rural)
-- Gender-wise
-- Caste-wise
-- Age/Standard-wise
+### 🎯 Objectives
 
-    ### 🎯 Objectives
-    Our project aims to:
-
-- Collect and pre-process dropout data from authentic sources.
-- Analyse dropout patterns using machine learning models.
-- Provide real-time analysis through a web-based dashboard.
-- Enable manual data entry via web forms for live monitoring.
-- Support policymakers and school authorities in identifying high-risk categories.
-- Facilitate focused interventions to reduce dropout rates.
+Our project aims to: Collect and pre-process dropout data from authentic sources, Analyse dropout patterns using machine learning models, Provide real-time analysis through a web-based dashboard, Enable manual data entry via web forms for live monitoring, Support policymakers and school authorities in identifying high-risk categories, Facilitate focused interventions to reduce dropout rates.
     
-    ### 🤖 Technology Stack
-    - **Machine Learning**: Random Forest Classifier
-    - **Data Processing**: Pandas, NumPy, Scikit-learn
-    - **Visualization**: Plotly, Streamlit
-    - **Deployment**: Python, Streamlit Cloud
+### 🤖 Technology Stack
+- **Machine Learning**: Random Forest Classifier
+- **Data Processing**: Pandas, NumPy, Scikit-learn
+- **Visualization**: Plotly, Streamlit
+- **Deployment**: Python, Streamlit Cloud
     
-    ### 📊 Model Performance
+### 📊 Model Performance
     """)
     
     metrics = load_model_metrics()
@@ -641,7 +628,9 @@ def about_page():
     - **Feature Importance**: Understand key risk factors
     
     ### 👥 Team
-    CBD_7 - Capstone Project Team: 
+    CBD_7 - Capstone Project
+    Guide - Dr. Abdul Majid,
+    Team Members -
     Tanushree R, 
     Kavya J, 
     Kavya S.
